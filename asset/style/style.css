@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #ddd;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+}
+
+.slider {
+  width: 50%;
+}
+.slider img {
+  width: 100%;
+}
+
+.login {
+  width: 50%;
+  margin-top: 14%;
+  position: relative;
+}
+.login p,
+.login h1,
+.login form {
+  padding: 0 20%;
+}
+.login h1 {
+  margin-top: 4px;
+}
+
+form .email_login,
+form .password_login {
+  font-weight: 400;
+  color: #4a5568;
+  padding-bottom: 6px;
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+  display: inline-block;
+  margin-top: 20px;
+}
+form .email_message, form .password_message, form .login_message {
+  color: #f33a58;
+}
+form input[type=text] {
+  width: 93%;
+  height: 34px;
+  padding: 8px 12px;
+  border: 1px solid #b3b3b3;
+  border-radius: 2px;
+  outline: none;
+  font-size: 1.4rem;
+}
+form .login_operate {
+  margin: 20px 0 20px;
+  display: flex;
+  font-size: 1rem;
+  list-style: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+form .login_operate .remember_login {
+  display: flex;
+}
+form .login_operate input {
+  margin-right: 10px;
+}
+form .login_operate label {
+  color: #2d3748;
+}
+form .login_operate a {
+  color: #2c5282;
+  text-decoration: none;
+}
+form button {
+  width: 100%;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #04c35c;
+  margin-top: 12px;
+  padding: 8px 12px;
+  border: 1px solid #b3b3b3;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+form .form_login-google {
+  background-color: #2d3748;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form .form_login-google img {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.question {
+  margin-top: 26%;
+  display: flex;
+  justify-content: center;
+  color: #616161;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.question a {
+  color: #2B6CB0;
+  margin-left: 4px;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

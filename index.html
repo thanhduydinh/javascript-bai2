@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/style/style.css" />
+    <link rel="stylesheet" href="./asset/style/style.scss" />
+    <link rel="stylesheet" href="./index.js" />
+    <title>js-buoi2</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="slider">
+        <img src="./asset/img/image 1.png" alt="" />
+      </div>
+
+      <div class="login">
+        <p>Welcome back</p>
+        <h1>Login to your account</h1>  
+
+        <form action="" method="POST" class="form" id="form-1">
+            <div class="form_group">
+                <label for="email" class="email_login">Email</label>
+                <input
+                    id="email"
+                    class="form-control"
+                    type="text"
+                    rules="required|email"
+                    name="email"
+                    placeholder="John.snow@gmail.com" 
+                >
+                <span class="email_message"></span>
+            </div>
+
+            <div class="form_group">
+                <label for="password" class="password_login">Password</label>
+                <input
+                    id="password"
+                    class="form-control"
+                    type="text"
+                    rules="required"
+                    name="password"
+                    placeholder="*********" 
+                >
+                <span class="password_message"></span>
+            </div>
+
+            <div class="login_operate">
+                <div class="remember_login">
+                    <input
+                    id="remember"
+                    class="remember" 
+                    type="radio"
+                    >
+                    <label for="remember" class="remember">Remember me</label>
+                </div>
+                <a href="">Forgot password?</a>
+            </div>
+            <span class="login_message"></span>
+            <button class="form_login">Login now</button>
+            <button class="form_login-google">
+                <img src="./asset/img/iconfinder_Google_1298745 1.png" alt="">
+                Or sign-in with google
+            </button>
+        </form>
+
+        <p class="question">
+            Dont have an account?<a href="">Join free today</a>
+        </p>
+    </div>
+  </body>
+
+  <script src="./index.js"></script>
+</html>
